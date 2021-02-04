@@ -141,7 +141,7 @@ end
 image_projected = [];
 num = size(eigen_faces,2);
 for i = 1 : num
-    space_projection = eigen_faces'*sample_faces(:,i);%????????????
+    space_projection = eigen_faces'*sample_faces(:,i);
     image_projected = [image_projected space_projection]; 
 end
 
